@@ -232,3 +232,58 @@ footer nav a {
 }
 
 /* Start of my design */
+
+/* Start Header */
+header {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header nav {
+  padding: 1rem 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+header .hero {
+  margin: 2rem 0;
+}
+/* Start Styling the boxes */
+.middle-content .boxes .box:nth-child(1) {
+  background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+  background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+  background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+  background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+  background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+  background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+  background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+  background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+  background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+  background-color: dodgerblue;
+}
+/* End Styling the boxes */
+/* End Header */
