@@ -1,0 +1,35 @@
+/* About Page */
+.full-width {
+  margin-bottom: 2rem;
+}
+.second {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4rem 0;
+  border-top: 3px dashed darkgray;
+}
+
+.second .s-item {
+  flex: 1 1 45%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-bottom: 2px dashed darkgray;
+  padding-bottom: 1rem;
+  align-items: start;
+}
+.second .s-item img {
+  margin-bottom: 1rem;
+}
+
+.second .s-item:nth-child(2),
+.second .s-item:nth-child(4) {
+  margin-left: 2rem;
+}
+.btn {
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  color: darkgray;
+  border: 2px solid black;
+}
